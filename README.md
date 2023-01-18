@@ -3,6 +3,7 @@
 Projeto inicialmente desenvolvido por [Matheus Valentim](https://github.com/valentimm/project-link-tree), by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat).
 
 [![pages-build-deployment](https://github.com/dversoza/link-tree/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/dversoza/link-tree/actions/workflows/pages/pages-build-deployment)
+[![CodeFactor](https://www.codefactor.io/repository/github/dversoza/link-tree/badge)](https://www.codefactor.io/repository/github/dversoza/link-tree)
 
 ## 🚀 Tecnologias
 
