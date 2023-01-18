@@ -28,6 +28,7 @@ body * {
   font-family: "Inter", sans-serif;
   color: var(--text-color);
 }
+
 /*background: color image repeat position/size */
 body {
   background: var(--bg-url) no-repeat top center/cover;
@@ -83,6 +84,7 @@ body {
 .light #switch button {
   animation: slide-in 0.4s forwards;
 }
+
 #switch span {
   display: block;
   width: 64px;
@@ -168,6 +170,7 @@ footer {
   :root {
     --bg-url: url(./assets/bg-desktop-dark.jpg);
   }
+
   .light {
     --bg-url: url(./assets/bg-desktop-light.jpg);
   }
@@ -178,6 +181,7 @@ footer {
   from {
     left: 0;
   }
+
   to {
     left: 50%;
   }
@@ -187,6 +191,7 @@ footer {
   from {
     left: 50%;
   }
+
   to {
     left: 0;
   }
