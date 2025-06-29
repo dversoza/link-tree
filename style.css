@@ -162,7 +162,27 @@ ul li a:hover {
 footer {
   text-align: center;
   padding: 24px 0;
-  opacity: 0.5;
+  opacity: 0.7;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+footer a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: 0.875rem;
+  padding: 8px 16px;
+  border-radius: 20px;
+  background: var(--surface-color);
+  border: 1px solid var(--stroke-color);
+  transition: all 0.2s;
+}
+
+footer a:hover {
+  opacity: 1;
+  background: var(--surface-color-hover);
 }
 
 /* media queries */
@@ -195,4 +215,94 @@ footer {
   to {
     left: 0;
   }
+}
+
+/* Legal pages styles (Privacy & Terms) */
+#privacy-content,
+#terms-content {
+  margin-top: 24px;
+  text-align: left;
+}
+
+#privacy-content h1,
+#terms-content h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 32px;
+  color: var(--text-color);
+}
+
+#privacy-content h2,
+#terms-content h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: var(--text-color);
+}
+
+.privacy-section,
+.terms-section {
+  margin-bottom: 32px;
+  padding: 24px;
+  background: var(--surface-color);
+  border: 1px solid var(--stroke-color);
+  border-radius: 8px;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.privacy-section p,
+.terms-section p {
+  line-height: 1.6;
+  margin-bottom: 16px;
+  color: var(--text-color);
+}
+
+.privacy-section p:last-child,
+.terms-section p:last-child {
+  margin-bottom: 0;
+}
+
+.privacy-section ul,
+.terms-section ul {
+  margin-left: 20px;
+  margin-bottom: 16px;
+}
+
+.privacy-section li,
+.terms-section li {
+  line-height: 1.6;
+  margin-bottom: 8px;
+  color: var(--text-color);
+}
+
+.last-updated {
+  font-style: italic;
+  opacity: 0.8;
+}
+
+.legal-navigation {
+  display: flex;
+  gap: 16px;
+  margin-top: 24px;
+  flex-wrap: wrap;
+}
+
+.back-link {
+  display: inline-block;
+  padding: 16px 24px;
+  background: var(--surface-color);
+  border: 1px solid var(--stroke-color);
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  text-align: center;
+  transition: background 0.2s;
+  flex: 1;
+  min-width: 150px;
+}
+
+.back-link:hover {
+  background: var(--surface-color-hover);
 }
